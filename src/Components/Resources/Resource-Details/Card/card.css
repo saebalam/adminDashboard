@@ -1,0 +1,15 @@
+#card{
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    width: 27rem;
+    padding: 17px;
+    min-height: 12rem;
+    min-width: 20rem;
+    margin: 20px;
+}
+
+
+@media only screen and (max-width:670px){
+    #card{
+        width: 8rem;
+    }
+}

@@ -1,0 +1,99 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Toastify__toast-container {
+    width: 20px;
+}
+
+.Toastify__toast--error {
+    border: 1px solid #EB5757;
+    border-radius: 50px !important;
+    background: #b7040a !important;
+}
+.Toastify__toast--error::after {
+  /* content : url('../assets/images/svg/closeToast.svg'); // Your svg Path */
+  position: absolute;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 700;
+  left:265px;
+  background: #b7040a !important;
+  /* padding-top: 14px !important; */
+}
+.Toastify__toast--error::before {
+  /* content: url("../assets/images/svg/errorToast.svg");// Your svg Path */
+  position:relative; 
+  z-index:100000;
+  left:12px;
+  top:6px;
+  background-color: red;
+}
+.Toastify__toast--success {
+  border: 1px solid #3A9EA5 !important;
+  border-radius: 50px !important;
+  background-color: green;
+  padding: 0;
+  /* background: #F0F9FA !important; */
+  background: yellow;
+}
+.Toastify__toast--success::before {
+  position:relative; 
+  z-index:100000;
+  left:12px;
+  top:6px;
+}
+.Toastify__toast--success::after {
+  position: absolute;
+  background-color: green;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 700;
+  left:265px;
+  padding-top: 14px !important;
+}
+.Toastify__toast--warning {
+  border: 1px solid #E78326  !important;
+  border-radius: 50px !important;
+  background: #FADFC5 !important;
+}
+.Toastify__toast--warning::before {
+  
+  position:relative; 
+  z-index:100000;
+  left:12px;
+  top:6px;
+}  
+.Toastify__toast--warning::after {
+
+  position: absolute;
+  color: #E78326;
+  font-size: 15px;
+  font-weight: 700;
+  left:265px;
+  /* padding-top: 14px !important; */
+}
+.Toastify__toast-body {
+  color: rgb(51, 51, 51)    ;
+  /* background-color: green; */
+  font-size: 16px;
+  /* padding-left: 20px; */
+  /* line-height: 20px; */
+  padding: 0px;
+  /* padding-top: 25px; */
+  width: 100%;
+  font-weight: 400;
+  margin-left: 25px !important;
+} 
+.Toastify__toast > button>  svg {
+    display: none;
+}
+
+/* .toastSuccess{
+    background-color: blue;
+}
+.toastFail{
+    background-color: tomato;
+} */
