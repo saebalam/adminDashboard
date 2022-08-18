@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nxtwave/static/css/main.20f2fc07.css",
-    "main.js": "/nxtwave/static/js/main.b758f4ba.js",
-    "static/js/787.16ff0b2d.chunk.js": "/nxtwave/static/js/787.16ff0b2d.chunk.js",
-    "static/media/design.jpg": "/nxtwave/static/media/design.e25b3eff6ba529c16b75.jpg",
-    "index.html": "/nxtwave/index.html",
-    "main.20f2fc07.css.map": "/nxtwave/static/css/main.20f2fc07.css.map",
-    "main.b758f4ba.js.map": "/nxtwave/static/js/main.b758f4ba.js.map",
-    "787.16ff0b2d.chunk.js.map": "/nxtwave/static/js/787.16ff0b2d.chunk.js.map"
+    "main.css": "/adminDashboard/static/css/main.20f2fc07.css",
+    "main.js": "/adminDashboard/static/js/main.f48c0d48.js",
+    "static/js/787.16ff0b2d.chunk.js": "/adminDashboard/static/js/787.16ff0b2d.chunk.js",
+    "static/media/design.jpg": "/adminDashboard/static/media/design.e25b3eff6ba529c16b75.jpg",
+    "index.html": "/adminDashboard/index.html",
+    "main.20f2fc07.css.map": "/adminDashboard/static/css/main.20f2fc07.css.map",
+    "main.f48c0d48.js.map": "/adminDashboard/static/js/main.f48c0d48.js.map",
+    "787.16ff0b2d.chunk.js.map": "/adminDashboard/static/js/787.16ff0b2d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20f2fc07.css",
-    "static/js/main.b758f4ba.js"
+    "static/js/main.f48c0d48.js"
   ]
 }
